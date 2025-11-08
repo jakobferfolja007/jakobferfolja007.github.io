@@ -96,7 +96,7 @@ input {
   color: #0073e6;
   text-decoration: none;
 }
-/* Razdelilnik med prijavo in družbenimi omrežji */
+
 .hr {
   margin: 20px 0;
   text-align: center;
@@ -169,3 +169,4 @@ input {
     font-size: 14px;
   }
 }
+
