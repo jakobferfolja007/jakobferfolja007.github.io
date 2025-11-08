@@ -1,0 +1,47 @@
+@import url('style1.css');/* klicdatoteke style1.css */
+
+/* Dodatni elementi za registracijo */
+.field select,
+.field input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.obrazec {
+  padding-bottom: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.social a {
+  margin-top: 10px;
+}
+
+.noga {
+  margin-top: 30px;
+}
+
+/* omogoča prilagoditv za telefone z ekranom 480px ali manj in*/
+@media screen and (max-width: 480px) {
+  .field label {
+    font-size: 14px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .social a {
+    font-size: 14px;
+  }
+}

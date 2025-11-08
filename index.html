@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <title>Manchester United — Log In </title>
+   <meta name="odzivnost" content="width=device-width, initial-scale=1.0">  <!-- da je lahko stran responsive -->
+  <link rel="stylesheet" href="css/style1.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><!-- Vključi knjižnico SweetAlert2 za prikaz obvestil -->
+  <script src="JScript/login.js"></script>
+</head>
+<body>
+  <div id="postavitev">
+    <div class="sirina">
+      <div class="obrazec" role="main" aria-labelledby="title">
+        <div class="logo">
+          <img src="slike1/manchesterunited.svg" alt="Manchester United Logo">
+        </div>
+        <h1 id="title">LOG IN</h1>
+        <div class="sub">Don't have an account? <a class="link" href="../naloga/registracja.html">Create an account</a></div>
+        
+        <form id="loginForm" action="#" method="post">
+          <div class="field">
+            <label for="email">Email or Supporter ID</label>
+            <input id="email" name="email" type="text" placeholder="name@gmail.com" required>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter your password" required>
+          </div>
+
+           <input class="btn" type="submit" value="LOG IN">
+
+          <div class="links">
+            <a href="#">Forgot password?</a>
+            <a href="#">Forgot Supporter ID?</a>
+          </div>
+
+          <div class="hr"><span>Or</span></div>
+
+          <div class="social">
+            <a href="#" role="button"><img src="slike1/fbLogo.svg" alt="Facebook Logo">Sign in with Facebook </a>
+            <a href="#" role="button"><img src="slike1/googleLogo.svg" alt="Facebook Logo"> Sign in with Google</a>
+            <a href="#" class="apple" role="button" style="color: #fff;"><img src="slike1/appleLogo.svg" alt="Facebook Logo">Sign in with Apple</a>
+          </div>
+        </form>
+
+        <div class="noga">
+          Having trouble logging in? <a href="#">Get Help</a>
+          <div style="margin-top:8px;font-size:12px;color:#666">
+            Access <a href="#">United Store</a>, <a href="#">Ticketing</a>, 
+            <a href="#">MUTV</a> and <a href="#">manutd.com</a>
+          </div>
+          <div style="margin-top:10px;font-size:12px;color:#aaa">
+            © 2025 - Manchester United Identity - <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+</body>
+</html>
