@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: `Welcome back, ${email}!`
     }).then(() => {
       // Tukaj lahko preusmeriš uporabnika
-      window.location.href = "../naloga/index.html";
+      window.location.href = "jakobferfolja007.github.io/index.html";
     });
   });
 });

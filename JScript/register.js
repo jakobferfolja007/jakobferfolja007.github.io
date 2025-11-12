@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: `Welcome to Manchester United, ${firstName}!`
     }).then(() => {
       // Preusmeritev na prijavno stran
-      window.location.href = "../naloga/index.html";
+      window.location.href = "jakobferfolja007.github.io/index.html";
     });
   });
 });
